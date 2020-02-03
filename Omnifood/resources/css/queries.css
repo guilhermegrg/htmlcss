@@ -1,0 +1,241 @@
+/*Big tablet to 1200px */
+@media only screen and (max-width: 1200px) {
+    
+    .hero-text-box {
+    width: 100%;
+        padding: 0 2%;
+}
+    
+    .row { padding: 0 2%; }
+    
+}
+
+/* Small tablet to big tablet: from 767px to 1023px */
+@media only screen and (max-width: 1023px) {
+    
+    body {
+        font-size: 18px;
+    }
+    
+    section {
+        padding: 60px 0;
+    }
+    
+    .long-copy {
+    width: 80%;
+    margin-left: 10%;
+}
+    
+    
+    .steps-box {margin-top: 10px;}
+    .steps-box:last-child {
+        margin-top: 10px;
+    }
+    .works-steps { margin-bottom: 40px;}
+    .works-steps:last-of-type { margin-bottom: 60px;}
+    
+    .app-screen { width: 40%;}
+    
+    
+    .works-step div { width: 40px; height: 40px;
+    font-size: 25px;
+    }
+    
+    .works-step div p {
+        transform: translate(-5%,-15%);
+    }
+    
+    
+    .city-feature ion-icon {
+    display: inline-block;
+    width: 20px;
+    text-align: center;
+    color:  #e67e22;
+    font-size: 80%;
+    
+    
+/*    secrets to align text and icons*/
+    
+    line-height: 120%;
+    vertical-align: middle;
+    margin-top: -5px;
+    
+    margin-right: 0;
+}
+    
+    .city-feature {
+        font-size: 90%;
+    }
+
+    .plan-box {
+        width: 100%;
+        margin-left: 0%;
+    }
+    
+    
+    .plan-box ul {
+        font-size: 80%;
+    }
+    
+    .plan-price {
+        font-size: 200%;
+    }
+    
+    .contact-form {
+        width: 90%;
+    }
+    
+}
+
+
+/*small phones to small tablets: from 480px to 767px */
+@media only screen and (max-width: 767px) {
+    body {
+        font-size: 16px;
+        
+    }
+    
+    section {
+        padding: 30px 0 ;
+    }
+    
+    .row, .hero-text-box { padding: 0 4%;}
+    
+    .col {width = 100%;
+    margin: 0 0 0 0;
+    }
+    
+/*
+    .main-nav {
+        display: none;
+    }
+*/
+    .main-nav {
+        float: left;
+        margin-top: 35px;
+        margin-left: 25px;
+        display: none;
+    }
+    
+    
+    .main-nav li {
+        display: block;
+    }
+    
+    .main-nav li a:link,
+    .main-nav li a:visited{
+        display: block;
+        border: 0;
+        padding: 6px 0;
+        font-size: 100%;
+    }
+    
+    .mobile-nav-icon {
+        display: inline-block;
+        margin-top: 15px;
+        
+    }
+    
+    
+    .sticky  .mobile-nav-icon ion-icon {
+        color: black;
+    }
+    
+  .sticky  .main-nav {
+        float: left;
+/*        margin-top: 35px;*/
+        margin-left: 10px;
+    }
+    
+   .sticky  .main-nav li a:link,
+   .sticky  .main-nav li a:visited{
+        display: block;
+        border: 0;
+        padding: 6px 0;
+        font-size: 100%;
+    }
+    
+/*
+    .sticky .mobile-nav-icon {
+    display: inline-block;
+    }
+*/
+    
+/*
+
+.sticky .main-nav {
+    padding-top: 5px
+}
+
+.sticky .main-nav li a:link, 
+.sticky .main-nav li a:visited {
+    padding: 10px 0;
+
+}
+*/
+
+
+
+
+    
+    
+    
+    
+    
+    .long-copy {
+        width: 96%;
+        margin-left: 2%;
+    }
+    
+    h1 {
+        font-size:  160%;
+    }
+    
+    h2 {
+        font-size: 110%;
+    }
+    
+    .works-step {
+        margin-bottom: 30px;
+    }
+    
+
+    .app-screen {
+        width: 50%;
+/*        margin-right: 18%;*/
+        
+    }
+    
+
+    
+    .steps-box:first-child{
+        text-align: center;
+        margin-right: 0;
+        padding-right: 0;
+    }
+    
+    .plan-box {
+        margin-bottom: 20px;
+    }
+    
+    .contact-form .row {
+        margin-bottom: 15px;
+    }
+}
+
+
+/*Small phones: from 0 to 480px */
+@media only screen and (max-width: 480px) {
+    section {
+        padding: 25px 0;
+    }
+    
+    .contact-form {
+        width: 100%;
+    }
+    .contact-form .row {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    
+}
